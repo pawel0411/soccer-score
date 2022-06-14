@@ -1,38 +1,258 @@
-.App {
+.App{
+  margin: 0 auto;
+  width: 1920px;
+  height: 600px;
+  background: url(../../img/coming-match.png)no-repeat;
+
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  font-size: 18px;
+}
+h4{
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase
+}
+.App-header{
+padding-top: 124px;
+margin: auto 168px;
+display: flex;
+}
+.SectionCenter{
+  margin: 0 auto;
+  margin-top: -44px;
+  background-color: #1B232C;
+  width: 780px;
+  height: 380px;
+}
+.SectionLeft{
+  margin: 0 auto;
+
+  background-color: #1B232C;
+  width: 378px;
+  height: 292px;
+}
+.SubsectionLeft{
+margin: 32px 16px;
+align-items: center;
+text-align: center;
+}
+.SectionRight{
+  /* margin: 0 auto; */
+  background-color: #1B232C;
+  width: 378px;
+  height: 292px;
+}
+.SubsectionCenter{
+  margin: 32px;
+  align-items: center;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  .SubTwo{
+    display: flex;
+    height: 106px;
+    margin-bottom: 30px;
+  }
+  .Club{
+    margin: 0 auto;
+  }
+  .Emblem{
+    width: 80px;
+    height: 80px;
+  }
+  .Ural{
+    background: url(../../img/ural.png)no-repeat;
+  }
+  .Sochi{
+    background: url(../../img/sochi.png)no-repeat;
+  }
+  .CSKA{
+    background: url(../../img/cska.png) no-repeat;
+  }
+  .Dinamo{
+    background: url(../../img/dinamo.png) no-repeat 0% 100%;
+  }
+  .Spartak{
+    background: url(../../img/spartak.png) no-repeat;
+  }
+  .Lokomotiv{
+    background: url(../../img/lokomotiv.png) no-repeat 0% 100%;
+  }
+  .Score{
+    height: 66px;
+    width: 96px;
+    margin-top: 20px;
+    display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    background-color: white;
   }
-  to {
-    transform: rotate(360deg);
+  .ScoreNone{
+    background-color: transparent;
+   
   }
+  .Score h4{
+    font-weight: 900;
+  line-height: 50px;
+  color: #CC122D;
+  font-size: 40px;
+  
+  }
+  .ScoreNone h4{
+    color: #5C6168;
+  }
+  .SubThree{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    
+  }
+  .Date{
+    text-align: start;
+  }
+  .Date h4{
+    font-weight: 700;
+  line-height: 30px;
+  font-size: 24px;
+  margin:0;
+  padding: 0;
+  }
+  button{
+    width: 57px;
+    border-color: white;
+  }
+  .btn{
+    background: url(../../img/ArrowRight.svg) no-repeat center;
+  }
+.Date p{
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  color: #A5ACBB;
+  margin:0;
+  padding: 0;
+}
+.TicketCenter{
+ 
+}
+.btnRight{
+  background: url(../../img/Ticket.svg) no-repeat center #CC122D;
+  border-color: transparent;
+}
+.SubsectionUp{
+  height: 328px;
+}
+.SubsectionDown{
+  height: 52px;
+  background: linear-gradient( #9D9E9F, #C4C7C9, #A0A2A4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SubsectionDown h4{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #2C2C2C;
+}
+.dot {
+  height: 36px;
+  width: 36px;
+  background-color: #27AF11;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.figure{
+  border: 7px solid transparent;
+border-left: 10px solid rgb(255, 255, 255);
+display: block;
+width: 0;
+height: 0;
+margin-left: 25%;
+}
+.SubsectionUp{
+  margin: 32px 24px;
+  text-align: center;
+}
+.Club-Center{
+  width: 220px;
+  height: 152px;
+  align-items: center;
+  text-align: center;
+
+}
+.EmblemC{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.Club-Center h4{
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 24px;
+  margin:0;
+  padding: 0;
+}
+.Time{
+display: flex;
+align-items: center;
+margin: 0 auto;
+  width: 244px;
+  height: 66px;
+  background-color:  #CC122D4D;
+}
+.Time h4{
+  margin: 0 auto;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 40px;
+}
+.SubTwoC{
+  display: flex;
+align-items: center;
+
+}
+.SubThreeCenter{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.PointCenter{
+  width: 218px;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.ImgTicket{
+  background: url(../../img/Ticket.svg)  no-repeat center;
+  width: 40px;
+  height: 20px;
+}
+.TicketCenter{
+  width: 180px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  border-color: transparent;
+  background-color: #CC122D;
+ 
+}
+.TicketCenter h4{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
 }

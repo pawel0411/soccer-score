@@ -21,16 +21,19 @@ h4{
   text-transform: uppercase
 }
 .App-header{
-padding-top: 124px;
+padding-top: 80px;
 margin: auto 168px;
 display: flex;
+align-items: center;
 }
 .SectionCenter{
   margin: 0 auto;
-  margin-top: -44px;
   background-color: #1B232C;
   width: 780px;
   height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .SectionLeft{
   margin: 0 auto;
@@ -146,9 +149,7 @@ text-align: center;
   background: url(../../img/Ticket.svg) no-repeat center #CC122D;
   border-color: transparent;
 }
-.SubsectionUp{
-  height: 328px;
-}
+
 .SubsectionDown{
   height: 52px;
   background: linear-gradient( #9D9E9F, #C4C7C9, #A0A2A4);
@@ -183,6 +184,10 @@ margin-left: 25%;
 }
 .SubsectionUp{
   margin: 32px 24px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
 }
 .Club-Center{
@@ -226,15 +231,25 @@ align-items: center;
 .SubThreeCenter{
   display: flex;
   justify-content: space-between;
- 
 }
 .PointCenter{
   width: 218px;
   height: 56px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+ .SectionCenter p:nth-child(1){
   margin: 0;
   padding: 0;
+}
+.PointCenter p{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
 }
 .ImgTicket{
   background: url(../../img/Ticket.svg)  no-repeat center;
@@ -256,3 +271,16 @@ align-items: center;
   font-weight: 500;
   line-height: 18px;
 }
+.Circle{
+  width: 55px;
+  height: 23px;
+  border-radius: 15px;
+  border:  solid 4px white;
+  background-color: #394552;
+}
+.Green{
+  background-color: #27af11;
+}
+.PointCenter div p:nth-child(2) {
+  color: #A5ACB8;
+  }

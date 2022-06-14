@@ -62,15 +62,15 @@ function App() {
 </div>
 <div className='PointCenter'>
   <div className='WinOne'>
-    <p>3.82</p>
+    <p className="Circle">3.82</p>
     <p>П1</p>
   </div>
   <div className='Draw'>
-  <p>3.82</p>
+  <p className="Circle">3.82</p>
     <p>X</p>
   </div>
   <div classname='WinTwo'>
-  <p>3.82</p>
+  <p className="Circle Green">3.82</p>
     <p>П2</p>
   </div>
 </div>

@@ -1,6 +1,6 @@
 body{ 
   height: 100%;  
-  background: url(../../img/coming-match.png) center no-repeat;
+  background: url(../img/coming-match.png) center no-repeat;
   background-size: 1920px 600px;
 }
 p{
@@ -63,22 +63,22 @@ text-align: center;
     height: 80px;
   }
   .Ural{
-    background: url(../../img/ural.png)no-repeat;
+    background: url(../img/ural.png)no-repeat;
   }
   .Sochi{
-    background: url(../../img/sochi.png)no-repeat;
+    background: url(../img/sochi.png)no-repeat;
   }
   .CSKA{
-    background: url(../../img/cska.png) no-repeat;
+    background: url(../img/cska.png) no-repeat;
   }
   .Dinamo{
-    background: url(../../img/dinamo.png) no-repeat 0% 100%;
+    background: url(../img/dinamo.png) no-repeat 0% 100%;
   }
   .Spartak{
-    background: url(../../img/spartak.png) no-repeat;
+    background: url(../img/spartak.png) no-repeat;
   }
   .Lokomotiv{
-    background: url(../../img/lokomotiv.png) no-repeat 0% 100%;
+    background: url(../img/lokomotiv.png) no-repeat 0% 100%;
   }
   .Score{
     height: 66px;
@@ -122,7 +122,7 @@ text-align: center;
     border-color: white;
   }
   .btn{
-    background: url(../../img/ArrowRight.svg) no-repeat center;
+    background: url(../img/ArrowRight.svg) no-repeat center;
   }
 .Date p{
   font-weight: 400;
@@ -134,7 +134,7 @@ text-align: center;
 }
 
 .btnRight{
-  background: url(../../img/Ticket.svg) no-repeat center #CC122D;
+  background: url(../img/Ticket.svg) no-repeat center #CC122D;
   border-color: transparent;
 }
 
@@ -240,7 +240,7 @@ align-items: center;
   font-family: 'Lato', sans-serif;
 }
 .ImgTicket{
-  background: url(../../img/Ticket.svg)  no-repeat center;
+  background: url(../img/Ticket.svg)  no-repeat center;
   width: 40px;
   height: 20px;
 }
@@ -290,7 +290,7 @@ align-items: center;
     }
     .App{
       height: 100vh;
-      background:url(../../img/banner2.jpg) 50% 0% #000 no-repeat fixed;
+      background:url(../img/banner2.jpg) 50% 0% #000 no-repeat fixed;
     }
     .App-header{
       padding-top: 80px;
@@ -336,27 +336,27 @@ align-items: center;
         font-size: 12px;
       }
       .Ural{
-        background: url(../../img/ural.png) center no-repeat;
+        background: url(../img/ural.png) center no-repeat;
         background-size: 50px 50px;
       }
       .Sochi{
-        background: url(../../img/sochi.png) center no-repeat;
+        background: url(../img/sochi.png) center no-repeat;
         background-size: 50px 50px;
       }
       .CSKA{
-        background: url(../../img/cska.png) no-repeat;
+        background: url(../img/cska.png) no-repeat;
         background-size: 50px 50px;
       }
       .Dinamo{
-        background: url(../../img/dinamo.png) no-repeat 0% 100%;
+        background: url(../img/dinamo.png) no-repeat 0% 100%;
         background-size: 50px 50px;
       }
       .Spartak{
-        background: url(../../img/spartak.png) no-repeat;
+        background: url(../img/spartak.png) no-repeat;
         background-size: 64px 64px;
       }
       .Lokomotiv{
-        background: url(../../img/lokomotiv.png) 50% no-repeat 0% 0%;
+        background: url(../img/lokomotiv.png) 50% no-repeat 0% 0%;
         background-size: 53px 53px;
       }
       .Date h4{

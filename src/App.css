@@ -1,9 +1,7 @@
-.App{
-  margin: 0 auto;
-  width: 1920px;
-  height: 600px;
-  background: url(../../img/coming-match.png)no-repeat;
-
+body{ 
+  height: 100%;  
+  background: url(../../img/coming-match.png) center no-repeat;
+  background-size: 1920px 600px;
 }
 p{
   font-family: 'Roboto', sans-serif;
@@ -18,16 +16,17 @@ h4{
   line-height: 18px;
   color: white;
   font-size: 14px;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .App-header{
-padding-top: 80px;
-margin: auto 168px;
+margin-top: 80px;
 display: flex;
 align-items: center;
+justify-content: center;
+
 }
 .SectionCenter{
-  margin: 0 auto;
+  margin: auto 24px;
   background-color: #1B232C;
   width: 780px;
   height: 380px;
@@ -35,9 +34,8 @@ align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.SectionLeft{
-  margin: 0 auto;
-
+.SectionLeft,
+.SectionRight{
   background-color: #1B232C;
   width: 378px;
   height: 292px;
@@ -46,12 +44,6 @@ align-items: center;
 margin: 32px 16px;
 align-items: center;
 text-align: center;
-}
-.SectionRight{
-  /* margin: 0 auto; */
-  background-color: #1B232C;
-  width: 378px;
-  height: 292px;
 }
 .SubsectionCenter{
   margin: 32px;
@@ -99,14 +91,12 @@ text-align: center;
   }
   .ScoreNone{
     background-color: transparent;
-   
   }
   .Score h4{
     font-weight: 900;
   line-height: 50px;
   color: #CC122D;
   font-size: 40px;
-  
   }
   .ScoreNone h4{
     color: #5C6168;
@@ -142,9 +132,7 @@ text-align: center;
   margin:0;
   padding: 0;
 }
-.TicketCenter{
- 
-}
+
 .btnRight{
   background: url(../../img/Ticket.svg) no-repeat center #CC122D;
   border-color: transparent;
@@ -283,4 +271,159 @@ align-items: center;
 }
 .PointCenter div p:nth-child(2) {
   color: #A5ACB8;
+  }
+  @media only screen and (max-width: 1441px) {
+ 
+    .App{
+      background-attachment:fixed;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+    .App-header{
+      width: 1620px;
+      margin-top: 80px;
+      }
+  }
+  @media only screen and (max-width: 376px) {
+    body{
+      background: url()no-repeat;
+    }
+    .App{
+      height: 100vh;
+      background:url(../../img/banner2.jpg) 50% 0% #000 no-repeat fixed;
+    }
+    .App-header{
+      padding-top: 80px;
+      margin: auto 16px;
+      width:860px; 
+      }
+    .SectionCenter{
+      margin: 0 16px;
+      background-color: #1B232C;
+     width: 343px;  
+      height: 316px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    p{
+      line-height: 18px;
+      font-size: 14px;
+    }
+    h4{
+      line-height: 14px;
+      font-size: 12px;
+    }
+    .Time{
+        width: 115px;
+        height: 32px;
+      }
+      .Time h4{
+        font-size: 24px;
+      }
+      .Club-Center{
+        width: 94px;
+        height: 82px;
+      
+      }
+      .EmblemC{
+        width: 64px;
+        height: 64px;
+      }
+      .Club-Center h4{
+        font-weight: 500;
+        line-height: 14px;
+        font-size: 12px;
+      }
+      .Ural{
+        background: url(../../img/ural.png) center no-repeat;
+        background-size: 50px 50px;
+      }
+      .Sochi{
+        background: url(../../img/sochi.png) center no-repeat;
+        background-size: 50px 50px;
+      }
+      .CSKA{
+        background: url(../../img/cska.png) no-repeat;
+        background-size: 50px 50px;
+      }
+      .Dinamo{
+        background: url(../../img/dinamo.png) no-repeat 0% 100%;
+        background-size: 50px 50px;
+      }
+      .Spartak{
+        background: url(../../img/spartak.png) no-repeat;
+        background-size: 64px 64px;
+      }
+      .Lokomotiv{
+        background: url(../../img/lokomotiv.png) 50% no-repeat 0% 0%;
+        background-size: 53px 53px;
+      }
+      .Date h4{
+      line-height: 22px;
+      font-size: 16px;
+      }
+
+    .Date p{
+      font-weight: 400;
+      line-height: 18px;
+      font-size: 14px;
+    }
+    .TicketCenter{
+      width: 115px;
+      height: 40px;   
+    }
+    .TicketCenter h4{
+      font-size: 14px;
+    }
+  button span,
+  .PointCenter{
+    display: none;
+  }
+    .SubsectionDown{
+      height: 40px;
+    }
+    .SubsectionDown h4{
+      font-size: 16px;
+    }
+    .dot {
+      height: 24px;
+      width: 24px;
+    }
+    .figure{
+      border: 5px solid transparent;
+    border-left: 7px solid rgb(255, 255, 255);
+    margin-left: 30%;
+    }
+ .SectionLeft,
+ .SectionRight{
+    width: 230px; 
+  height: 210px; 
+    }
+    .SubsectionLeft{
+    margin: 24px 12px;
+    }
+    .Score{
+      height: 36px;
+      width: 60px;
+      margin-top: 10px;
+    }
+    .Score h4{
+      font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+    
+    }
+    .Emblem{
+      width: 50px;
+      height: 50px;
+    }
+    .SubTwo{
+      display: flex;
+       margin-bottom: 0px; 
+    }
+    button{
+      width: 36px;
+      height: 36px;
+    }
   }

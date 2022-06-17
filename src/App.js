@@ -16,7 +16,7 @@ function App() {
                 <h4>Урал</h4>
               </div>
               <div className='Score'>
-              <h4>2 : 1</h4>
+              <h4>2:1</h4>
               </div>
              
                 <div className="Club">
@@ -44,14 +44,14 @@ function App() {
             </div>
             <div className="SubTwoC SubTwo">
             <div className="Club-Center">
-                <div className='EmblemC Emblem Spartak'></div>
+                <div className='EmblemC  Spartak'></div>
                 <h4>Спартак</h4>
               </div>
               <div className='Time'>
-              <h4>01 : 46 : 38</h4>
+              <h4>01:46:38</h4>
               </div>
                 <div className="Club-Center">
-                <div className='EmblemC Emblem Lokomotiv'></div>
+                <div className='EmblemC Lokomotiv'></div>
                 <h4>Локомотив</h4>
                 </div>
             </div>
@@ -76,7 +76,7 @@ function App() {
 </div>
 <button className='TicketCenter'>
   <div className='ImgTicket'></div>
-  <h4>купить билет</h4>
+  <h4>купить <span>билет</span></h4>
 </button>
             </div>
           </div>
